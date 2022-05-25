@@ -4,7 +4,7 @@ import { API } from '../apiService'
 import Profile from './Profile'
 
 function Input() {
-  const [githubUser, setGithubUser] = useState('mri999')
+  const [githubUser, setGithubUser] = useState()
   const [userData, setUserData] = useState()
   const [loading, setLoading] = useState(false)
 

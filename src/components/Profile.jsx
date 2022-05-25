@@ -43,6 +43,10 @@ function Profile({ userData }) {
                   subTitle={moment(repo.created_at).format('MMMM Do YYYY')}
                 />
                 <HorizontalText
+                  title="Default Branch"
+                  subTitle={repo.default_branch}
+                />
+                <HorizontalText
                   title="Open Issues"
                   subTitle={repo.open_issues_count}
                 />
