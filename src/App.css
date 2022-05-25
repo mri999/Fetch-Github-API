@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputField{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 12px;
+    width: 500px;
+    font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submitBtn{
+    border: 1px solid ;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profileCard {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 16px;
+    border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.userAvatar{
+    height: 200px;
+    width: 200px;
+    margin: 16px 0px 0px 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardHeader{
+    display: flex;
 }
+
+.title{
+    font-size: 16px;
+}
+
+.subTitle {
+    font-weight: 500;
+}
+
+.repolistTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info{
+    padding: 32px 16px;
+}
+
+ .repolist{
+     padding: 16px;
+ }
+
+ .listItem{
+     font-size: 16px;
+     font-weight: 500;
+ }
